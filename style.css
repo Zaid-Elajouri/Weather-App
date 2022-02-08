@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Crimson+Pro:wght@300&family=Lato:ital@0;1&family=Montserrat&family=Playfair+Display:wght@500;600;800&family=Poppins:wght@300&family=Sansita&family=Source+Serif+4:wght@300&family=Spline+Sans&display=swap');
+  html {
+    width: 100vw;
+    height:100vh;
+    font-weight: 100;
+  }
+  body {
+    justify-content: center;
+    margin-top: 1em;
+    background-color: #1ea3cc;
+    background-image: linear-gradient(450deg, #009ffd  0%, #2727a8 74% );
+  }
+  .container{
+      justify-content: center;
+      margin: auto;
+      text-align: center;
+  }
+  input{
+      width:30vw;
+      height:8vh;
+      font-size: 24px;
+      border-radius: 10px;
+      text-align: center;
+      color:rgba(0, 0, 0, 0.774);
+      margin: 30px auto;
+  }
+
+
+/* CSS */
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+input::placeholder { /* Chrome/Opera/Safari */
+    color: red;
+    font-size:25px;
+  }
+.temp{
+    font-size: 7em;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin-top:0;
+}
+
+.image_weather{
+    margin-top:0;
+    position: relative;
+    bottom:190px;
+    display:inline;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+
+}
+#weather{
+    color:aliceblue;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin:auto;
+    
+}
+img{
+    position: relative;
+    bottom:150px;
+}
+#city{
+    color:aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vw;
+}
+@media only screen and (max-width: 1000px) {
+    input{
+      width:45%;
+      font-size: 22px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    input{
+      width:75%;
+      font-size: 16px;
+    }
+    input::placeholder{
+        font-size: 20px;
+    }
+    #city{
+        font-size: 24px;
+    }
+  }
